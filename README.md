@@ -33,7 +33,7 @@ Join the battle arena they don't tell you about 👀
    * On Windows:
 
 ```bash
-     venv\\\\Scripts\\\\activate
+     venv\Scripts\activate
      ```
 
    \* On macOS/Linux:
