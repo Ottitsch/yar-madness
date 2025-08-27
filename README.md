@@ -1,6 +1,12 @@
-# BDO Auto Form Submitter
+# Yar Madness for the Summer!
 
-This project automates the submission of forms for Black Desert Online (BDO) event registration using Playwright with proxy support.
+This project automates the submission of forms for Black Desert Online (BDO) event registration using Playwright with proxy support.  
+
+Ready to Duel?  
+Yar Madness Returns!  
+Fancy a Yar game against your fellow Adventurers?  
+Join the battle arena they don't tell you about 👀  
+[YAR!!!](https://www.naeu.playblackdesert.com/en-US/News/Detail?groupContentNo=8987&countryType=en-US)
 
 ## Prerequisites
 
@@ -53,14 +59,14 @@ This project automates the submission of forms for Black Desert Online (BDO) eve
 Create a `.env` file in the project root with the following variables:
 
 ```env
-USERNAME=your\\\_proxy\\\_username
-PASSWORD=your\\\_proxy\\\_password
+USERNAME=your_proxy_username
+PASSWORD=your_proxy_password
 HOST=brd.superproxy.io
 PORT=33335
 REGION=Europe
 HEADLESS=1
-ROTATE\\\_PER=10
-BLOCK\\\_MEDIA=1
+ROTATE_PER=10
+BLOCK_MEDIA=1
 ```
 
 ### Environment Variables Explanation
@@ -71,7 +77,7 @@ BLOCK\\\_MEDIA=1
 * `PORT`: Proxy port
 * `REGION`: Target region (Europe or other)
 * `HEADLESS`: Run browser in headless mode (1 = yes, 0 = no)
-* `ROTATE\\\_PER`: Rotate proxy after N submissions (0 = never rotate)
+* `ROTATE_PER`: Rotate proxy after N submissions (0 = never rotate)
 
 ## Usage
 
