@@ -19,7 +19,7 @@ Join the battle arena they don't tell you about 👀
 
 ```bash
    git clone git@github.com:Ottitsch/yar-madness.git
-   cd bdo-auto-form
+   cd yar-madness
    ```
 
 2. Create a virtual environment:
