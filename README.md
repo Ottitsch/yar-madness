@@ -18,14 +18,14 @@ Join the battle arena they don't tell you about 👀
 1. Clone the repository:
 
 ```bash
-   git clone git@github.com:Ottitsch/yar-madness.git
-   cd yar-madness
+git clone git@github.com:Ottitsch/yar-madness.git
+cd yar-madness
    ```
 
 2. Create a virtual environment:
 
 ```bash
-   python -m venv venv
+python -m venv venv
    ```
 
 3. Activate the virtual environment:
@@ -33,25 +33,25 @@ Join the battle arena they don't tell you about 👀
    * On Windows:
 
 ```bash
-     venv\Scripts\activate
-     ```
+venv\Scripts\activate
+   ```
 
-   \* On macOS/Linux:
+   * On macOS/Linux:
 
 ```bash
-     source venv/bin/activate
-     ```
+source venv/bin/activate
+   ```
 
 4. Install the required packages:
 
 ```bash
-   pip install playwright python-dotenv
+pip install playwright python-dotenv
    ```
 
 5. Install Playwright browsers:
 
 ```bash
-   playwright install chromium
+playwright install chromium
    ```
 
 ## Configuration
@@ -85,13 +85,13 @@ BLOCK_MEDIA=1
 2. Run the form submitter:
 
 ```bash
-   python apply.py
+python apply.py
    ```
 
 3. (Optional) Test proxy connectivity:
 
 ```bash
-   python proxy.py
+python proxy.py
    ```
 
 ## Files
